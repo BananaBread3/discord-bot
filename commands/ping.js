@@ -3,5 +3,6 @@ module.exports = {
     description: "ping command",
     execute(message,args, cmd, client, Discord){
         message.channel.send('pong');
+        message.channel.send('pong');
     }
 }
